@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Walmart Store Management | Muhammad Kamran</title>
+  <meta name="description" content="Case study of Walmart marketplace management, inventory sync, order processing, and maintaining 99% seller rating.">
+  
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body class="bg-brand-light text-gray-800">
+
+  <!-- Header / Navigation -->
+  <header class="fixed w-full top-0 z-50 bg-white shadow-sm border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        <div class="flex-shrink-0 flex items-center">
+          <a class="text-2xl font-bold text-brand-dark tracking-tight" href="../index.html">
+            M. Kamran<span class="text-brand-blue">.</span>
+          </a>
+        </div>
+        
+        <nav class="hidden md:flex space-x-8">
+          <a class="text-gray-600 hover:text-brand-blue font-medium transition duration-300" href="../index.html#home">Home</a>
+          <a class="text-gray-600 hover:text-brand-blue font-medium transition duration-300" href="../index.html#about">About</a>
+          <a class="text-gray-600 hover:text-brand-blue font-medium transition duration-300" href="../index.html#services">Services</a>
+          <a class="text-gray-600 hover:text-brand-blue font-medium transition duration-300" href="../index.html#portfolio">Portfolio</a>
+          <a class="text-gray-600 hover:text-brand-blue font-medium transition duration-300" href="../index.html#contact">Contact</a>
+        </nav>
+
+        <div class="hidden md:flex items-center">
+          <a class="bg-brand-blue hover:bg-blue-700 text-white px-6 py-2.5 rounded-full font-medium transition duration-300 shadow-md" href="../index.html#contact">
+            Hire Me <i class="fa-solid fa-arrow-right ml-2"></i>
+          </a>
+        </div>
+
+        <div class="md:hidden flex items-center">
+          <button class="text-gray-600 hover:text-brand-blue focus:outline-none" id="mobile-menu-btn">
+            <i class="fa-solid fa-bars text-2xl"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden md:hidden bg-white border-t border-gray-100 shadow-lg absolute w-full" id="mobile-menu">
+      <div class="px-4 pt-2 pb-6 space-y-2">
+        <a class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-gray-50 rounded-md" href="../index.html#home">Home</a>
+        <a class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-gray-50 rounded-md" href="../index.html#about">About</a>
+        <a class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-gray-50 rounded-md" href="../index.html#services">Services</a>
+        <a class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-gray-50 rounded-md" href="../index.html#portfolio">Portfolio</a>
+        <a class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-gray-50 rounded-md" href="../index.html#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="pt-28 pb-4 bg-white border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav class="flex items-center text-sm">
+        <a href="../index.html" class="text-brand-blue hover:underline">Home</a>
+        <i class="fa-solid fa-chevron-right mx-3 text-gray-400"></i>
+        <a href="../index.html#portfolio" class="text-brand-blue hover:underline">Portfolio</a>
+        <i class="fa-solid fa-chevron-right mx-3 text-gray-400"></i>
+        <span class="text-gray-600">Walmart Store Management</span>
+      </nav>
+    </div>
+  </div>
+
+  <main class="py-16">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Header -->
+      <div class="mb-12">
+        <div class="flex items-center gap-4 mb-4">
+          <div class="w-20 h-20 bg-blue-100 rounded-xl flex items-center justify-center">
+            <i class="fa-solid fa-store text-4xl text-blue-600"></i>
+          </div>
+          <div>
+            <h1 class="text-4xl font-extrabold text-brand-dark">Walmart Store Management</h1>
+            <p class="text-gray-600 mt-2">Daily Operations, Inventory Sync & 99% Seller Rating</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Overview -->
+      <section class="bg-white rounded-2xl p-8 mb-8 border border-gray-100 shadow-sm">
+        <h2 class="text-2xl font-bold text-brand-dark mb-4">Project Overview</h2>
+        <p class="text-gray-700 leading-relaxed mb-4">
+          Full-time management of Walmart marketplace store including daily updates, inventory synchronization, order processing, and customer account management. Maintained consistent 99% seller rating while scaling operations and improving operational efficiency.
+        </p>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+          <div class="bg-blue-50 p-4 rounded-lg">
+            <p class="text-sm text-gray-600 font-medium">Seller Rating</p>
+            <p class="text-xl font-bold text-blue-600 mt-2">99%</p>
+          </div>
+          <div class="bg-green-50 p-4 rounded-lg">
+            <p class="text-sm text-gray-600 font-medium">Orders Processed</p>
+            <p class="text-xl font-bold text-brand-green mt-2">1000+</p>
+          </div>
+          <div class="bg-purple-50 p-4 rounded-lg">
+            <p class="text-sm text-gray-600 font-medium">Inventory Accuracy</p>
+            <p class="text-xl font-bold text-purple-600 mt-2">100%</p>
+          </div>
+          <div class="bg-orange-50 p-4 rounded-lg">
+            <p class="text-sm text-gray-600 font-medium">Management Period</p>
+            <p class="text-xl font-bold text-orange-600 mt-2">12+ Mo.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Key Responsibilities -->
+      <section class="bg-white rounded-2xl p-8 mb-8 border border-gray-100 shadow-sm">
+        <h2 class="text-2xl font-bold text-brand-dark mb-6">Key Responsibilities</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <i class="fa-solid fa-boxes-stacked text-brand-blue text-2xl mb-3"></i>
+            <h3 class="font-bold text-gray-800 mb-2">Inventory Management</h3>
+            <ul class="text-sm text-gray-600 space-y-1">
+              <li>• Daily inventory syncing</li>
+              <li>• Stock level monitoring</li>
+              <li>• Prevented overselling issues</li>
+              <li>• Real-time updates</li>
+            </ul>
+          </div>
+
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <i class="fa-solid fa-truck-fast text-brand-green text-2xl mb-3"></i>
+            <h3 class="font-bold text-gray-800 mb-2">Order Processing</h3>
+            <ul class="text-sm text-gray-600 space-y-1">
+              <li>• Weekly order management</li>
+              <li>• Fulfillment coordination</li>
+              <li>• Tracking updates</li>
+              <li>• Returns processing</li>
+            </ul>
+          </div>
+
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <i class="fa-solid fa-comments text-orange-500 text-2xl mb-3"></i>
+            <h3 class="font-bold text-gray-800 mb-2">Customer Service</h3>
+            <ul class="text-sm text-gray-600 space-y-1">
+              <li>• Message response &lt;2 hours</li>
+              <li>• Issue resolution</li>
+              <li>• Professional communication</li>
+              <li>• Building customer trust</li>
+            </ul>
+          </div>
+
+          <div class="bg-gray-50 p-6 rounded-lg">
+            <i class="fa-solid fa-chart-line text-purple-600 text-2xl mb-3"></i>
+            <h3 class="font-bold text-gray-800 mb-2">Performance Monitoring</h3>
+            <ul class="text-sm text-gray-600 space-y-1">
+              <li>• Sales analytics review</li>
+              <li>• Seller metrics tracking</li>
+              <li>• Policy compliance</li>
+              <li>• ROI optimization</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Challenges -->
+      <section class="bg-white rounded-2xl p-8 mb-8 border border-gray-100 shadow-sm">
+        <h2 class="text-2xl font-bold text-brand-dark mb-6">Challenges Overcome</h2>
+        <ul class="space-y-4">
+          <li class="flex items-start">
+            <i class="fa-solid fa-circle text-blue-600 mt-1.5 mr-4 text-xs"></i>
+            <div>
+              <h4 class="font-semibold text-gray-800">Complex Inventory Sync</h4>
+              <p class="text-gray-600 text-sm mt-1">Coordinating inventory between Walmart, suppliers, and multiple channels</p>
+            </div>
+          </li>
+          <li class="flex items-start">
+            <i class="fa-solid fa-circle text-blue-600 mt-1.5 mr-4 text-xs"></i>
+            <div>
+              <h4 class="font-semibold text-gray-800">High Order Volume</h4>
+              <p class="text-gray-600 text-sm mt-1">Managing 80+ daily orders while maintaining quality</p>
+            </div>
+          </li>
+          <li class="flex items-start">
+            <i class="fa-solid fa-circle text-blue-600 mt-1.5 mr-4 text-xs"></i>
+            <div>
+              <h4 class="font-semibold text-gray-800">Maintaining Excellence</h4>
+              <p class="text-gray-600 text-sm mt-1">Keeping 99% seller rating with demanding Walmart standards</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Results -->
+      <section class="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl p-8 mb-8 text-white">
+        <h2 class="text-2xl font-bold mb-6">Results Achieved</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
+            <div class="text-4xl font-bold mb-2">99%</div>
+            <p class="text-blue-100">Seller Rating</p>
+            <p class="text-sm text-blue-200 mt-2">Maintained consistently high rating</p>
+          </div>
+
+          <div class="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
+            <div class="text-4xl font-bold mb-2">1000+</div>
+            <p class="text-blue-100">Orders Managed</p>
+            <p class="text-sm text-blue-200 mt-2">Processed without errors or delays</p>
+          </div>
+
+          <div class="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
+            <div class="text-4xl font-bold mb-2">100%</div>
+            <p class="text-blue-100">Accuracy</p>
+            <p class="text-sm text-blue-200 mt-2">Perfect inventory management</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Client Feedback -->
+      <section class="bg-gray-50 rounded-2xl p-8 mb-8 border border-gray-100">
+        <h2 class="text-2xl font-bold text-brand-dark mb-6">Client Feedback</h2>
+        <div class="bg-white p-6 rounded-lg border-l-4 border-blue-600">
+          <div class="flex text-yellow-400 mb-3 text-sm">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="text-gray-700 italic mb-4">"Improved my store performance quickly. Muhammad is very detail-oriented with inventory management and order processing. He maintained my seller rating at 99% even during busy seasons. Highly recommended Virtual Assistant!"</p>
+          <p class="font-semibold text-gray-800">- Robert T. (Walmart Seller)</p>
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section class="bg-brand-blue rounded-2xl p-8 text-white text-center">
+        <h2 class="text-2xl font-bold mb-4">Need Store Management Support?</h2>
+        <p class="text-blue-100 mb-6">Let me handle the daily operations so you can focus on growing your business.</p>
+        <a href="../index.html#contact" class="inline-block bg-white text-brand-blue hover:bg-blue-50 font-bold px-8 py-3 rounded-full transition duration-300">
+          Get Started Today <i class="fa-solid fa-arrow-right ml-2"></i>
+        </a>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-12 mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <h5 class="text-white font-bold mb-4">M. Kamran VA</h5>
+          <p class="text-sm">Professional Ecommerce Virtual Assistant helping sellers grow on all major marketplaces.</p>
+        </div>
+        <div>
+          <h5 class="text-white font-bold mb-4">Quick Links</h5>
+          <ul class="space-y-2 text-sm">
+            <li><a href="../index.html" class="hover:text-brand-blue transition">Home</a></li>
+            <li><a href="../index.html#about" class="hover:text-brand-blue transition">About</a></li>
+            <li><a href="../index.html#services" class="hover:text-brand-blue transition">Services</a></li>
+            <li><a href="../index.html#contact" class="hover:text-brand-blue transition">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="text-white font-bold mb-4">Services</h5>
+          <ul class="space-y-2 text-sm">
+            <li><a href="../index.html#services" class="hover:text-brand-blue transition">Product Listing</a></li>
+            <li><a href="../index.html#services" class="hover:text-brand-blue transition">SEO Optimization</a></li>
+            <li><a href="../index.html#services" class="hover:text-brand-blue transition">Store Management</a></li>
+            <li><a href="../index.html#services" class="hover:text-brand-blue transition">Customer Support</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="text-white font-bold mb-4">Connect</h5>
+          <div class="flex space-x-4">
+            <a href="https://wa.me/1234567890" class="hover:text-brand-blue transition"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:your.email@example.com" class="hover:text-brand-blue transition"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#" class="hover:text-brand-blue transition"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" class="hover:text-brand-blue transition"><i class="fa-brands fa-fiverr"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 pt-8 text-center">
+        <p class="text-sm">&copy; 2024 Muhammad Kamran. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../scripts/script.js"></script>
+</body>
+</html>

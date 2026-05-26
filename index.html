@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Muhammad Kamran | Ecommerce Virtual Assistant</title>
+  <meta name="description" content="Professional Ecommerce Virtual Assistant helping sellers grow and manage stores on eBay, Etsy, Walmart, and Temu. Save time and increase sales today.">
+  <meta name="keywords" content="Ecommerce VA, Virtual Assistant, eBay VA, Etsy VA, Walmart VA, Temu VA, Product Listing, SEO Optimization, Store Management">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body class="bg-brand-light text-gray-800">
+
+  <!-- Header / Navigation -->
+  <header class="fixed w-full top-0 z-50 bg-white shadow-sm border-b border-gray-100" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        <!-- Logo -->
+        <div class="flex-shrink-0 flex items-center">
+          <a class="text-2xl font-bold text-brand-dark tracking-tight" href="/">
+            M. Kamran<span class="text-brand-blue">.</span>
+          </a>
+        </div>
+        
+        <!-- Desktop Menu -->
+        <nav class="hidden md:flex space-x-8">
+          <a class="text-gray-600 hover:text-brand-blue font-medium transition duration-300" href="#home">Home</a>
+          <a class="text-gray-600 hover:text-brand-blue font-medium transition duration-300" href="#about">About</a>
+          <a class="text-gray-600 hover:text-brand-blue font-medium transition duration-300" href="#services">Services</a>
+          <a class="text-gray-600 hover:text-brand-blue font-medium transition duration-300" href="#portfolio">Portfolio</a>
+          <a class="text-gray-600 hover:text-brand-blue font-medium transition duration-300" href="#contact">Contact</a>
+        </nav>
+
+        <!-- CTA Button Desktop -->
+        <div class="hidden md:flex items-center">
+          <a class="bg-brand-blue hover:bg-blue-700 text-white px-6 py-2.5 rounded-full font-medium transition duration-300 shadow-md hover:shadow-lg" href="#contact">
+            Hire Me <i class="fa-solid fa-arrow-right ml-2"></i>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden flex items-center">
+          <button class="text-gray-600 hover:text-brand-blue focus:outline-none" id="mobile-menu-btn">
+            <i class="fa-solid fa-bars text-2xl"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu Panel -->
+    <div class="hidden md:hidden bg-white border-t border-gray-100 shadow-lg absolute w-full" id="mobile-menu">
+      <div class="px-4 pt-2 pb-6 space-y-2">
+        <a class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-gray-50 rounded-md" href="#home">Home</a>
+        <a class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-gray-50 rounded-md" href="#about">About</a>
+        <a class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-gray-50 rounded-md" href="#services">Services</a>
+        <a class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-gray-50 rounded-md" href="#portfolio">Portfolio</a>
+        <a class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-gray-50 rounded-md" href="#contact">Contact</a>
+        <a class="block w-full text-center mt-4 bg-brand-blue text-white px-6 py-3 rounded-md font-medium shadow-md" href="#contact">Hire Me</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-gradient-to-br from-white to-blue-50" id="home">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center max-w-4xl mx-auto">
+          <span class="inline-block py-1 px-3 rounded-full bg-blue-100 text-brand-blue font-semibold text-sm mb-6 border border-blue-200">
+            <i class="fa-solid fa-rocket mr-2"></i> Available for Remote Freelance Work
+          </span>
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-brand-dark leading-tight mb-6">
+            Hi, I'm <span class="text-gradient">Muhammad Kamran</span> 👋
+          </h1>
+          <p class="text-xl md:text-2xl font-medium text-gray-600 mb-4">
+            Professional Ecommerce Virtual Assistant
+          </p>
+          <p class="text-lg text-gray-500 mb-8 max-w-2xl mx-auto">
+            I help sellers grow and manage stores on top marketplaces. Save time, increase sales, and manage your store like a pro.
+          </p>
+          
+          <!-- Platform Badges -->
+          <div class="flex flex-wrap justify-center gap-4 mb-10">
+            <span class="px-4 py-2 bg-white shadow-sm border border-gray-200 rounded-lg font-semibold text-gray-700 flex items-center"><i class="fa-brands fa-ebay text-xl text-blue-600 mr-2"></i> eBay</span>
+            <span class="px-4 py-2 bg-white shadow-sm border border-gray-200 rounded-lg font-semibold text-gray-700 flex items-center"><i class="fa-brands fa-etsy text-xl text-orange-500 mr-2"></i> Etsy</span>
+            <span class="px-4 py-2 bg-white shadow-sm border border-gray-200 rounded-lg font-semibold text-gray-700 flex items-center"><i class="fa-solid fa-store text-xl text-blue-500 mr-2"></i> Walmart</span>
+            <span class="px-4 py-2 bg-white shadow-sm border border-gray-200 rounded-lg font-semibold text-gray-700 flex items-center"><i class="fa-solid fa-bag-shopping text-xl text-red-500 mr-2"></i> Temu</span>
+          </div>
+
+          <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+            <a class="w-full sm:w-auto px-8 py-4 bg-brand-blue hover:bg-blue-700 text-white rounded-full font-semibold text-lg transition duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1" href="#contact">
+              Hire Me Today
+            </a>
+            <a class="w-full sm:w-auto px-8 py-4 bg-white hover:bg-gray-50 text-brand-dark border-2 border-gray-200 rounded-full font-semibold text-lg transition duration-300 shadow-sm hover:shadow-md" href="#portfolio">
+              View My Work
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Decorative Background Elements -->
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20 bg-white" id="about">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col lg:flex-row items-center gap-16">
+          <!-- Image/Illustration Placeholder -->
+          <div class="w-full lg-w-half relative">
+            <div class="aspect-square md:aspect-video lg:aspect-square bg-gray-100 rounded-3xl overflow-hidden relative shadow-2xl">
+              <div class="absolute inset-0 bg-gradient-to-tr from-brand-blue/20 to-brand-green/20"></div>
+              <div class="absolute inset-0 flex items-center justify-center text-brand-blue">
+                <i class="fa-solid fa-user-tie text-9xl opacity-50"></i>
+              </div>
+            </div>
+            
+            <!-- Floating Badge -->
+            <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-xl border border-gray-100">
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 bg-green-100 text-brand-green rounded-full flex items-center justify-center text-2xl">
+                  <i class="fa-solid fa-check-double"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-gray-800">100%</h4>
+                  <p class="text-sm text-gray-500">Client Satisfaction</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text Content -->
+          <div class="w-full lg-w-half">
+            <h2 class="text-sm font-bold text-brand-blue tracking-widest uppercase mb-2">About Me</h2>
+            <h3 class="text-3xl md:text-4xl font-bold text-brand-dark mb-6">Dedicated to Growing Your Ecommerce Business</h3>
+            <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+              I am a dedicated Ecommerce Virtual Assistant specializing in online marketplace management. My goal is to help ecommerce sellers focus on growth while I handle daily store operations efficiently.
+            </p>
+            <p class="text-gray-600 text-lg mb-8 leading-relaxed font-medium">
+              I work with attention to detail, accuracy, and fast delivery.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div class="flex items-start">
+                <i class="fa-solid fa-circle-check text-brand-green mt-1 mr-3 text-lg"></i>
+                <span class="text-gray-700 font-medium">Product listing &amp; optimization</span>
+              </div>
+              <div class="flex items-start">
+                <i class="fa-solid fa-circle-check text-brand-green mt-1 mr-3 text-lg"></i>
+                <span class="text-gray-700 font-medium">SEO titles &amp; descriptions</span>
+              </div>
+              <div class="flex items-start">
+                <i class="fa-solid fa-circle-check text-brand-green mt-1 mr-3 text-lg"></i>
+                <span class="text-gray-700 font-medium">Order processing &amp; management</span>
+              </div>
+              <div class="flex items-start">
+                <i class="fa-solid fa-circle-check text-brand-green mt-1 mr-3 text-lg"></i>
+                <span class="text-gray-700 font-medium">Customer support handling</span>
+              </div>
+              <div class="flex items-start">
+                <i class="fa-solid fa-circle-check text-brand-green mt-1 mr-3 text-lg"></i>
+                <span class="text-gray-700 font-medium">Inventory tracking &amp; updates</span>
+              </div>
+              <div class="flex items-start">
+                <i class="fa-solid fa-circle-check text-brand-green mt-1 mr-3 text-lg"></i>
+                <span class="text-gray-700 font-medium">Product research &amp; analysis</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-gray-50" id="services">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <h2 class="text-sm font-bold text-brand-blue tracking-widest uppercase mb-2">My Services</h2>
+          <h3 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">Everything You Need to Scale</h3>
+          <p class="text-gray-600 text-lg">Comprehensive virtual assistant services tailored for eBay, Etsy, Walmart, and Temu sellers.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Service 1 -->
+          <a href="pages/product-listing.html" class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group block">
+            <div class="w-16 h-16 bg-blue-50 text-brand-blue rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:bg-brand-blue group-hover:text-white transition duration-300">
+              <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            <h4 class="text-xl font-bold text-brand-dark mb-3">Product Listing</h4>
+            <p class="text-gray-600 leading-relaxed">High-quality listings optimized for conversion on eBay, Etsy, Walmart &amp; Temu.</p>
+          </a>
+
+          <!-- Service 2 -->
+          <a href="pages/seo-optimization.html" class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group block">
+            <div class="w-16 h-16 bg-green-50 text-brand-green rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:bg-brand-green group-hover:text-white transition duration-300">
+              <i class="fa-solid fa-magnifying-glass-chart"></i>
+            </div>
+            <h4 class="text-xl font-bold text-brand-dark mb-3">SEO Optimization</h4>
+            <p class="text-gray-600 leading-relaxed">Keyword-rich titles and descriptions to improve ranking, visibility, and CTR.</p>
+          </a>
+
+          <!-- Service 3 -->
+          <a href="pages/store-management.html" class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group block">
+            <div class="w-16 h-16 bg-purple-50 text-purple-600 rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:bg-purple-600 group-hover:text-white transition duration-300">
+              <i class="fa-solid fa-store"></i>
+            </div>
+            <h4 class="text-xl font-bold text-brand-dark mb-3">Store Management</h4>
+            <p class="text-gray-600 leading-relaxed">Daily store operations including updates, monitoring, and performance handling.</p>
+          </a>
+
+          <!-- Service 4 -->
+          <a href="pages/customer-support.html" class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group block">
+            <div class="w-16 h-16 bg-orange-50 text-orange-500 rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:bg-orange-500 group-hover:text-white transition duration-300">
+              <i class="fa-solid fa-headset"></i>
+            </div>
+            <h4 class="text-xl font-bold text-brand-dark mb-3">Customer Support</h4>
+            <p class="text-gray-600 leading-relaxed">Professional communication with customers for better ratings, reviews, and trust.</p>
+          </a>
+
+          <!-- Service 5 -->
+          <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
+            <div class="w-16 h-16 bg-red-50 text-red-500 rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:bg-red-500 group-hover:text-white transition duration-300">
+              <i class="fa-solid fa-boxes-stacked"></i>
+            </div>
+            <h4 class="text-xl font-bold text-brand-dark mb-3">Inventory Management</h4>
+            <p class="text-gray-600 leading-relaxed">Accurate stock tracking, updates, and avoiding overselling issues.</p>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
+            <div class="w-16 h-16 bg-teal-50 text-teal-600 rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:bg-teal-600 group-hover:text-white transition duration-300">
+              <i class="fa-solid fa-searchengin"></i>
+            </div>
+            <h4 class="text-xl font-bold text-brand-dark mb-3">Product Research</h4>
+            <p class="text-gray-600 leading-relaxed">Finding winning, profitable, and trending products for your ecommerce store.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Me Section -->
+    <section class="py-20 bg-brand-dark text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col lg:flex-row items-center gap-12">
+          <div class="w-full lg-w-5-12">
+            <h2 class="text-sm font-bold text-brand-green tracking-widest uppercase mb-2">Why Choose Me</h2>
+            <h3 class="text-3xl md:text-4xl font-bold mb-6">Your Reliable Partner in Ecommerce Success</h3>
+            <p class="text-gray-300 text-lg mb-8">I don't just complete tasks; I take ownership of your store's success. Partnering with me means peace of mind and measurable growth.</p>
+            <a class="inline-block bg-brand-green hover:bg-green-600 text-white px-8 py-3 rounded-full font-medium transition duration-300" href="#contact">
+              Let's Talk Business
+            </a>
+          </div>
+          
+          <div class="w-full lg-w-7-12">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div class="bg-white/10 p-6 rounded-xl border border-white/10 backdrop-blur-sm">
+                <i class="fa-solid fa-comments text-brand-green text-3xl mb-4"></i>
+                <h4 class="text-xl font-bold mb-2">Reliable Communication</h4>
+                <p class="text-gray-400 text-sm">Clear, professional, and always responsive to your needs.</p>
+              </div>
+              <div class="bg-white/10 p-6 rounded-xl border border-white/10 backdrop-blur-sm">
+                <i class="fa-solid fa-bolt text-brand-green text-3xl mb-4"></i>
+                <h4 class="text-xl font-bold mb-2">Fast Turnaround Time</h4>
+                <p class="text-gray-400 text-sm">Quick execution without compromising on quality.</p>
+              </div>
+              <div class="bg-white/10 p-6 rounded-xl border border-white/10 backdrop-blur-sm">
+                <i class="fa-solid fa-eye text-brand-green text-3xl mb-4"></i>
+                <h4 class="text-xl font-bold mb-2">Detail-Oriented Work</h4>
+                <p class="text-gray-400 text-sm">Zero errors in listings, inventory, and customer handling.</p>
+              </div>
+              <div class="bg-white/10 p-6 rounded-xl border border-white/10 backdrop-blur-sm">
+                <i class="fa-solid fa-handshake text-brand-green text-3xl mb-4"></i>
+                <h4 class="text-xl font-bold mb-2">Long-Term Mindset</h4>
+                <p class="text-gray-400 text-sm">Focused on building a lasting and profitable collaboration.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Process Section -->
+    <section class="py-20 bg-white" id="process">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <h2 class="text-sm font-bold text-brand-blue tracking-widest uppercase mb-2">My Work Process</h2>
+          <h3 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">How I Help Grow Your Store</h3>
+          <p class="text-gray-600 text-lg">A proven, step-by-step approach that delivers results. From analysis to optimization, I handle every detail with dedication.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <!-- Step 1 -->
+          <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
+            <div class="w-16 h-16 bg-blue-50 text-brand-blue rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:bg-brand-blue group-hover:text-white transition duration-300">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <h4 class="text-xl font-bold text-brand-dark mb-3">1. Discovery</h4>
+            <p class="text-gray-600 leading-relaxed text-sm">Analyze your store, competition, and market to understand what needs improvement.</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
+            <div class="w-16 h-16 bg-cyan-50 text-cyan-600 rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:bg-cyan-600 group-hover:text-white transition duration-300">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <h4 class="text-xl font-bold text-brand-dark mb-3">2. Strategy</h4>
+            <p class="text-gray-600 leading-relaxed text-sm">Create keyword, pricing, and marketing strategies tailored to your business goals.</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
+            <div class="w-16 h-16 bg-green-50 text-brand-green rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:bg-brand-green group-hover:text-white transition duration-300">
+              <i class="fa-solid fa-rocket"></i>
+            </div>
+            <h4 class="text-xl font-bold text-brand-dark mb-3">3. Execution</h4>
+            <p class="text-gray-600 leading-relaxed text-sm">Implement professional listings, optimization, and management across all platforms.</p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
+            <div class="w-16 h-16 bg-purple-50 text-purple-600 rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:bg-purple-600 group-hover:text-white transition duration-300">
+              <i class="fa-solid fa-chart-pie"></i>
+            </div>
+            <h4 class="text-xl font-bold text-brand-dark mb-3">4. Monitor & Grow</h4>
+            <p class="text-gray-600 leading-relaxed text-sm">Track performance and continuously optimize for better results and growth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="py-20 bg-gray-50" id="portfolio">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <h2 class="text-sm font-bold text-brand-blue tracking-widest uppercase mb-2">Portfolio</h2>
+          <h3 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">Examples of My Work</h3>
+          <p class="text-gray-600 text-lg">A glimpse into the quality and optimization I bring to your marketplace stores.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Portfolio Item 1 -->
+          <a href="pages/ebay.html" class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 group border border-gray-100 block hover:no-underline">
+            <div class="h-48 bg-blue-100 flex items-center justify-center relative overflow-hidden">
+              <i class="fa-brands fa-ebay text-6xl text-blue-500 group-hover:scale-110 transition duration-300"></i>
+              <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <span class="text-white font-medium border border-white px-4 py-2 rounded-full">View Details</span>
+              </div>
+            </div>
+            <div class="p-6">
+              <h4 class="text-xl font-bold text-brand-dark mb-2">Optimized eBay Listings</h4>
+              <p class="text-gray-600 text-sm">Created high-converting listings with SEO-optimized titles, detailed item specifics, and HTML templates to boost sales velocity.</p>
+            </div>
+          </a>
+
+          <!-- Portfolio Item 2 -->
+          <a href="pages/etsy.html" class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 group border border-gray-100 block hover:no-underline">
+            <div class="h-48 bg-orange-50 flex items-center justify-center relative overflow-hidden">
+              <i class="fa-brands fa-etsy text-6xl text-orange-500 group-hover:scale-110 transition duration-300"></i>
+              <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <span class="text-white font-medium border border-white px-4 py-2 rounded-full">View Details</span>
+              </div>
+            </div>
+            <div class="p-6">
+              <h4 class="text-xl font-bold text-brand-dark mb-2">Etsy Product Descriptions</h4>
+              <p class="text-gray-600 text-sm">Crafted engaging, story-driven product descriptions enriched with high CTR tags and keywords for top page ranking.</p>
+            </div>
+          </a>
+
+          <!-- Portfolio Item 3 -->
+          <a href="pages/walmart.html" class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 group border border-gray-100 block hover:no-underline">
+            <div class="h-48 bg-blue-50 flex items-center justify-center relative overflow-hidden">
+              <i class="fa-solid fa-store text-6xl text-blue-600 group-hover:scale-110 transition duration-300"></i>
+              <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <span class="text-white font-medium border border-white px-4 py-2 rounded-full">View Details</span>
+              </div>
+            </div>
+            <div class="p-6">
+              <h4 class="text-xl font-bold text-brand-dark mb-2">Walmart Store Management</h4>
+              <p class="text-gray-600 text-sm">Handled daily marketplace store updates, inventory sync, order processing, and maintained a 99% seller rating.</p>
+            </div>
+          </a>
+
+          <!-- Portfolio Item 4 -->
+          <a href="pages/temu.html" class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300 group border border-gray-100 block hover:no-underline">
+            <div class="h-48 bg-red-50 flex items-center justify-center relative overflow-hidden">
+              <i class="fa-solid fa-bag-shopping text-6xl text-red-500 group-hover:scale-110 transition duration-300"></i>
+              <div class="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <span class="text-white font-medium border border-white px-4 py-2 rounded-full">View Details</span>
+              </div>
+            </div>
+            <div class="p-6">
+              <h4 class="text-xl font-bold text-brand-dark mb-2">Temu Listing Formatting</h4>
+              <p class="text-gray-600 text-sm">Optimized product images and formatted listings specifically for the Temu algorithm to maximize visibility and clicks.</p>
+            </div>
+          </a>
+        </div>
+        
+        <div class="mt-10 text-center">
+          <p class="text-sm text-gray-500 italic">* Actual screenshots and live links available upon request.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <h2 class="text-sm font-bold text-brand-blue tracking-widest uppercase mb-2">Testimonials</h2>
+          <h3 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">What Clients Say</h3>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Review 1 -->
+          <div class="bg-gray-50 p-8 rounded-2xl relative">
+            <i class="fa-solid fa-quote-left text-4xl text-gray-200 absolute top-6 right-6"></i>
+            <div class="flex text-yellow-400 mb-4 text-sm">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-700 italic mb-6">&quot;Great communication and excellent listing quality. Muhammad completely transformed my eBay store and boosted my sales.&quot;</p>
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center font-bold text-brand-blue">A</div>
+              <div>
+                <h5 class="font-bold text-sm text-gray-800">Client A</h5>
+                <span class="text-xs text-gray-500">eBay Seller</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Review 2 -->
+          <div class="bg-gray-50 p-8 rounded-2xl relative">
+            <i class="fa-solid fa-quote-left text-4xl text-gray-200 absolute top-6 right-6"></i>
+            <div class="flex text-yellow-400 mb-4 text-sm">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-700 italic mb-6">&quot;Improved my store performance quickly. Very detail-oriented with inventory management. Highly recommended VA!&quot;</p>
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 bg-green-200 rounded-full flex items-center justify-center font-bold text-brand-green">B</div>
+              <div>
+                <h5 class="font-bold text-sm text-gray-800">Client B</h5>
+                <span class="text-xs text-gray-500">Walmart Marketplace</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="bg-gray-50 p-8 rounded-2xl relative">
+            <i class="fa-solid fa-quote-left text-4xl text-gray-200 absolute top-6 right-6"></i>
+            <div class="flex text-yellow-400 mb-4 text-sm">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-700 italic mb-6">&quot;Very professional and reliable VA. Understands Etsy SEO perfectly and helped rank my products on the first page.&quot;</p>
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 bg-orange-200 rounded-full flex items-center justify-center font-bold text-orange-600">C</div>
+              <div>
+                <h5 class="font-bold text-sm text-gray-800">Client C</h5>
+                <span class="text-xs text-gray-500">Etsy Shop Owner</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & CTA Section -->
+    <section class="py-20 bg-brand-blue relative overflow-hidden" id="contact">
+      <!-- Background Pattern -->
+      <div class="absolute inset-0 opacity-10">
+        <svg fill="none" height="100%" stroke="white" stroke-width="1.5" viewBox="0 0 100 100" width="100%">
+          <pattern height="20" id="grid" patternUnits="userSpaceOnUse" width="20">
+            <path d="M 20 0 L 0 0 0 20"/>
+          </pattern>
+          <rect fill="url(#grid)" height="100%" width="100%"/>
+        </svg>
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="bg-white rounded-3xl p-8 md:p-12 shadow-2xl max-w-5xl mx-auto">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            
+            <!-- Contact Info -->
+            <div>
+              <h2 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">Let's Work Together 🚀</h2>
+              <p class="text-gray-600 mb-8 text-lg">
+                Ready to grow your ecommerce store? Hire a professional VA today and focus on scaling your business while I handle the rest.
+              </p>
+              
+              <div class="space-y-6">
+                <div class="flex items-center">
+                  <div class="w-12 h-12 bg-blue-50 text-brand-blue rounded-full flex items-center justify-center text-xl mr-4">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div>
+                    <p class="text-sm text-gray-500 font-medium">Email Me At</p>
+                    <a class="text-lg font-bold text-brand-dark hover:text-brand-blue transition" href="mailto:your.email@example.com">your.email@example.com</a>
+                  </div>
+                </div>
+                
+                <div class="flex items-center">
+                  <div class="w-12 h-12 bg-green-50 text-brand-green rounded-full flex items-center justify-center text-xl mr-4">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </div>
+                  <div>
+                    <p class="text-sm text-gray-500 font-medium">WhatsApp</p>
+                    <a class="text-lg font-bold text-brand-dark hover:text-brand-green transition" href="https://wa.me/1234567890" target="_blank">+1 (234) 567-890</a>
+                  </div>
+                </div>
+                
+                <div class="flex items-center">
+                  <div class="w-12 h-12 bg-purple-50 text-purple-600 rounded-full flex items-center justify-center text-xl mr-4">
+                    <i class="fa-solid fa-globe"></i>
+                  </div>
+                  <div>
+                    <p class="text-sm text-gray-500 font-medium">Availability</p>
+                    <p class="text-lg font-bold text-brand-dark">Worldwide Remote Work</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Contact Form -->
+            <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+              <h3 class="text-2xl font-bold text-brand-dark mb-6">Send a Quick Message</h3>
+              <form id="contactForm" onsubmit="handleContactForm(event)">
+                <div class="mb-4">
+                  <label class="block text-sm font-medium text-gray-700 mb-2">Your Name</label>
+                  <input class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-blue focus:border-brand-blue outline-none transition" placeholder="John Doe" type="text" name="name" required/>
+                </div>
+                <div class="mb-4">
+                  <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                  <input class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-blue focus:border-brand-blue outline-none transition" placeholder="john@example.com" type="email" name="email" required/>
+                </div>
+                <div class="mb-4">
+                  <label class="block text-sm font-medium text-gray-700 mb-2">Store Link / Platform</label>
+                  <input class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-blue focus:border-brand-blue outline-none transition" placeholder="eBay, Etsy, etc." type="text" name="store"/>
+                </div>
+                <div class="mb-6">
+                  <label class="block text-sm font-medium text-gray-700 mb-2">How can I help?</label>
+                  <textarea class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-blue focus:border-brand-blue outline-none transition" placeholder="I need help with product listings..." rows="4" name="message" required></textarea>
+                </div>
+                <button class="w-full bg-brand-dark hover:bg-black text-white font-bold py-3 px-4 rounded-lg transition duration-300 shadow-md" type="submit">
+                  Contact Now <i class="fa-solid fa-paper-plane ml-2"></i>
+                </button>
+              </form>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <h5 class="text-white font-bold mb-4">M. Kamran VA</h5>
+          <p class="text-sm">Professional Ecommerce Virtual Assistant helping sellers grow on all major marketplaces.</p>
+        </div>
+        <div>
+          <h5 class="text-white font-bold mb-4">Quick Links</h5>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#home" class="hover:text-brand-blue transition">Home</a></li>
+            <li><a href="#about" class="hover:text-brand-blue transition">About</a></li>
+            <li><a href="#services" class="hover:text-brand-blue transition">Services</a></li>
+            <li><a href="#contact" class="hover:text-brand-blue transition">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="text-white font-bold mb-4">Services</h5>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="hover:text-brand-blue transition">Product Listing</a></li>
+            <li><a href="#" class="hover:text-brand-blue transition">SEO Optimization</a></li>
+            <li><a href="#" class="hover:text-brand-blue transition">Store Management</a></li>
+            <li><a href="#" class="hover:text-brand-blue transition">Customer Support</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="text-white font-bold mb-4">Connect</h5>
+          <div class="flex space-x-4">
+            <a href="https://wa.me/1234567890" class="hover:text-brand-blue transition"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:your.email@example.com" class="hover:text-brand-blue transition"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#" class="hover:text-brand-blue transition"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" class="hover:text-brand-blue transition"><i class="fa-brands fa-fiverr"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 pt-8 text-center">
+        <p class="text-sm">&copy; 2024 Muhammad Kamran. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="scripts/script.js"></script>
+</body>
+</html>
